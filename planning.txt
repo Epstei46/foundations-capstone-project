@@ -1,0 +1,20 @@
+Initial Planning:
+1.  Create an interactive Watch List
+2.  Watch List needs a minimum viable product (MVP) => features a, b, c are the MVP + extra features:
+    a.  GET stored watch list and render it visible to the user. Will have an initial watch list with suggestions.
+    b. user can POST new movies/shows to the watch list.
+    c. user can DELETE a movie/show from the list.
+    d. user can MARK a movie/show as watched.
+    e. user can ADD a comment to a movie/show.
+    f. move watched movies/shows to a new list for watched movies/shows OR sort list so that watched movies/shows are at the bottom.
+    g. different lists for different types of media (movie, shows, anime, YouTube) could help with organization.
+3. Wireframe
+4. Coding to-do list:
+    a. Create my HTML, CSS, JS files and link them together. Keep it super simple.
+    b. Set up local server for my back end and make sure everything is connected.
+    c. Build the HTML for my first feature.
+    d. Write the JavaScript for my first feature.
+    e. Add needed CSS for that section of the page.
+    f. Repeat c-e for other MVP features.
+    g. Polish the layout and styling of the page.
+    h. Add any bonus features or functionality.
