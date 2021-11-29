@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    text-align: center;
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header {
+    float: none;
+    background-color: aquamarine;
+    height: 5vh;
+    min-height: 30px;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+h1 {
+    text-align: right;
+    padding: 0 25vw 0 0;
+}
+
+span {
+    height: 500px;
+    min-height: 30px;
+}
+
+.sidebar-img {
+    width: 40vw;
+    height: 95vh;
+    min-height: 600px;
+    /* padding: 5vh 0 0 0; */
+    background-size: contain;
+    float: left;
+    display: flex;
+    position: fixed;
+    top: 5vh;
+    left: 0;
+}
+
+form {
+    height: 5vh;
+    background-color: yellow;
+    padding: 0 0 0 40vw;
+}
+
+input {
+    background-color: tomato;
+    color: black;
+    display: inline-block;
+    border-radius: 10px;
+    /* vertical-align: middle; */
+    width: 40vw;
+    /* padding: 0 0 0 50vw; */
+    margin-top: 1.5vh;
+}
+::placeholder {
+    color: yellow;
+}
+
+h2 {
+    background-color: aquamarine;
+    padding: 0 0 0 40vw;
+}
+
+div {
+    background-color: #F51720;
+    border: 3px solid magenta;
+    margin: 2px 0px;
+    padding: 0 0 0 40vw;
+}
+
+div > p {
+    text-decoration: underline;
+    text-transform: uppercase;
+    width: 59vw;
+}
+
+button {
+    background-color: tomato;
+    width: 50px;
+    padding: 0px 5px;
+}

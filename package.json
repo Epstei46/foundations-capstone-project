@@ -1,0 +1,26 @@
+{
+  "name": "week8-capstone-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Epstei46/foundations-capstone-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Epstei46/foundations-capstone-project/issues"
+  },
+  "homepage": "https://github.com/Epstei46/foundations-capstone-project#readme"
+}
