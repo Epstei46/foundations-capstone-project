@@ -1,7 +1,7 @@
 const listContainer = document.querySelector("#list-container")
 const form = document.querySelector("form")
 
-const baseURL = `http://localhost:4242/api/shows`
+const baseURL = `${window.location.origin}/api/shows`
 
 const showsCallback = ({ data: shows}) => displayShows(shows)
 const errCallback = err => console.log(err)
