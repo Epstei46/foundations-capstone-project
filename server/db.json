@@ -1,14 +1,17 @@
 [
     {
         "id": 1,
-        "name": "Spaceballs"
+        "name": "Spaceballs",
+        "notes": "This is my friend's favorite movie he recommended, like a spoof of Star Wars."
     },
     {
         "id": 2,
-        "name": "Eternals"
+        "name": "Eternals",
+        "notes": "New Marvel movie that came out recently that my friend said was pretty good, introduces a new team of superheroes that look like Humans but have existed far longer."
     },
     {
         "id": 3,
-        "name": "Full Metal Alchemist Brotherhood"
+        "name": "Full Metal Alchemist Brotherhood",
+        "notes": "This is my friend's favorite anime he recommended. Heavy on the action with a bit of humor mixed in; more dark than humorous. Some of the stuff they can do is like magic, but it's really more of a science."
     }
 ]

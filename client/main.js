@@ -14,17 +14,22 @@ const deleteShow = id => axios.delete(`${baseURL}/${id}`).then(showsCallback).ca
 function submitHandler(e) {
     e.preventDefault()
     let show = document.querySelector("#show")
+    let notes = document.querySelector("#notes")
+    if (show.value.trim() == ""){return alert("Please enter text for the title of the Show/Movie you want to add to the list.")}
     let bodyObj = {
-        name: show.value
+        name: show.value,
+        notes: notes.value
     }
     addShow(bodyObj)
     show.value=''
+    notes.value=''
 }
 
 function createShowItem(show) {
     const showItem = document.createElement("div")
     showItem.classList.add("show-item")
     showItem.innerHTML = `<p class="show">${show.name}</p>
+    <p class="notes">${show.notes}</p>
     <button onclick="deleteShow(${show.id})">delete</button>`
     listContainer.appendChild(showItem)
 }

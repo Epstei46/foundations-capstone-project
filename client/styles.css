@@ -46,7 +46,7 @@ span {
 }
 
 form {
-    height: 5vh;
+    height: 100px;
     background-color: yellow;
     padding: 0 0 0 40vw;
 }
@@ -80,14 +80,18 @@ div {
 }
 
 div > p {
+    width: 59vw;
+}
+.show {
+    font-weight: 700;
     text-decoration: underline;
     text-transform: uppercase;
-    width: 59vw;
 }
 
 button {
     background-color: tomato;
     width: 50px;
     padding: 0px 5px;
+    margin: 5px 0;
     font-weight: 700;
 }

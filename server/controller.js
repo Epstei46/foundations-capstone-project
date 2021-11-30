@@ -7,10 +7,11 @@ module.exports = {
     },
     addShow: (req, res) => {
         // console.log(req.body)
-        let {name} = req.body
+        let {name, notes} = req.body
         let newShow = {
             id: globalShowId,
-            name: name
+            name: name,
+            notes: notes
         }
         shows.push(newShow)
         res.status(200).send(shows)
