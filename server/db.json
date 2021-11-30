@@ -1,17 +1,42 @@
 [
     {
         "id": 1,
-        "name": "Spaceballs",
-        "notes": "This is my friend's favorite movie he recommended, like a spoof of Star Wars."
+        "name": "Full Metal Alchemist Brotherhood",
+        "notes": "On Netflix. This is my friend's favorite anime he recommended. Heavy on the action with a bit of humor mixed in; more dark than humorous. Some of the stuff they can do is like magic, but it's really more of a science."
     },
     {
         "id": 2,
-        "name": "Eternals",
-        "notes": "New Marvel movie that came out recently that my friend said was pretty good, introduces a new team of superheroes that look like Humans but have existed far longer."
+        "name": "Spaceballs",
+        "notes": "Can rent it on Amazon Prime Video. This is my friend's favorite movie he recommended, like a spoof of Star Wars."
     },
     {
         "id": 3,
-        "name": "Full Metal Alchemist Brotherhood",
-        "notes": "This is my friend's favorite anime he recommended. Heavy on the action with a bit of humor mixed in; more dark than humorous. Some of the stuff they can do is like magic, but it's really more of a science."
+        "name": "Eternals",
+        "notes": "In Theaters. New Marvel movie that came out recently that my friend said was pretty good, introduces a new team of superheroes that look like Humans but have existed far longer."
+    },
+    {
+        "id": 4,
+        "name": "The Boys - Season 2",
+        "notes": "On Amazon Prime. First season of this was good, just remembered the second season is out so need go and watch that."
+    },
+    {
+        "id": 5,
+        "name": "Doom Patrol",
+        "notes": "On HBO Max. Just remembered I didn't finish that, think I left off on episode 5?"
+    },
+    {
+        "id": 6,
+        "name": "Demon Slayer",
+        "notes": "Title is self explanatory. I know what this is and it's been on the backburner for too long, should really watch it soon."
+    },
+    {
+        "id": 7,
+        "name": "Arifureta: From Commonplace to World's Strongest",
+        "notes": "Title is self explantory. This is the one with the white haired kid that almost dies in the beginning, falls into like a pit of monsters, but he claws his way out and emerges like a different, stronger person."
+    },
+    {
+        "id": 8,
+        "name": "Bofuri: I Don't Want to Get Hurt, so I'll Max Out My Defense",
+        "notes": "Only seen 2 short clips from this anime, but what I have seen is as amusing as the title. There was one good action scene but also an amusing action scene, not too often you get to see combat that is amusing."
     }
 ]

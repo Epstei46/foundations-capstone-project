@@ -48,7 +48,7 @@ span {
 form {
     height: 100px;
     background-color: yellow;
-    padding: 0 0 0 40vw;
+    padding-left: 40vw;
 }
 
 input {
@@ -67,19 +67,20 @@ input {
 
 h2 {
     background-color: aquamarine;
-    padding: 0 0 0 40vw;
+    padding-left: 40vw;
     font-family: 'Libre Baskerville', serif;
     font-style: italic;
 }
 
 div {
     background-color: #F51720;
-    border: 3px solid magenta;
+    /* border: 3px solid magenta; */
     margin: 2px 0px;
-    padding: 0 0 0 40vw;
+    padding-left: 40vw;
 }
 
 div > p {
+    padding: 5px 15px;
     width: 59vw;
 }
 .show {
@@ -90,6 +91,8 @@ div > p {
 
 button {
     background-color: tomato;
+    box-shadow: 2px 2px 4px 1px tomato;
+    border-radius: 8px;
     width: 50px;
     padding: 0px 5px;
     margin: 5px 0;

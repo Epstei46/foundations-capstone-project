@@ -44,3 +44,9 @@ function displayShows(arr) {
 form.addEventListener("submit", submitHandler)
 
 getAllShows()
+
+// const suggestButton = document.querySelector("#suggestButton")
+// suggestButton.addEventListener("click", makeSuggestions)
+// function makeSuggestions(e) {
+//     e.preventDefault()
+// }
