@@ -5,14 +5,14 @@
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="https://github.com/Epstei46/foundations-capstone-project/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-no%3F-yellow.svg" />
   </a>
-  <a href="https://github.com/Epstei46/foundations-capstone-project/blob/master/LICENSE" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/Epstei46/Watch List" />
+  <a href="https://github.com/Epstei46/foundations-capstone-project/blob/main/LICENSE.md" target="_blank">
+    <img alt="License: ISC" src="https://img.shields.io/github/license/Epstei46/foundations-capstone-project" />
   </a>
 </p>
 
-> When I hear about a cool show to watch, I usually add it to a page in the local Notes app on my phone, with the title “Watch List”. For my Foundations Capstone Project–Watch List–I have made a webpage where the list will look better and be stored online, and I have the ability to ADD to the list and DELETE from that list. So if I leave the page and come back, I can see that my changes were saved.
+> Watch List is a personal site I created to keep track of shows I still need to watch, along with any important notes (where to watch, brief info, or who recommended it). Feel free to check out what I got on there and make your own addition if you think of a show/movie I might like!
 
 ### 🏠 [Homepage](https://github.com/Epstei46/foundations-capstone-project#readme)
 
@@ -45,7 +45,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2021 [Steven Epstein](https://github.com/Epstei46).<br />
-This project is [ISC](https://github.com/Epstei46/foundations-capstone-project/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/Epstei46/foundations-capstone-project/blob/main/LICENSE.md) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
