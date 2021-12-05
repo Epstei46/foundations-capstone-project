@@ -45,7 +45,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2021 [Steven Epstein](https://github.com/Epstei46).<br />
-This project is [ISC](https://github.com/Epstei46/foundations-capstone-project/blob/main/LICENSE.md) licensed.
+This project is [MIT](https://github.com/Epstei46/foundations-capstone-project/blob/main/LICENSE.md) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
