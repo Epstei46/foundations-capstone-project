@@ -8,7 +8,7 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-no%3F-yellow.svg" />
   </a>
   <a href="https://github.com/Epstei46/foundations-capstone-project/blob/main/LICENSE.md" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/Epstei46/foundations-capstone-project" />
+    <img alt="License:ISC" src="https://img.shields.io/github/license/Epstei46/foundations-capstone-project" />
   </a>
 </p>
 
