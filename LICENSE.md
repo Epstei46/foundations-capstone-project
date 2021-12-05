@@ -1,3 +1,5 @@
+MIT License
+
 Copyright © 2021 [Steven Epstein](https://github.com/Epstei46)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
