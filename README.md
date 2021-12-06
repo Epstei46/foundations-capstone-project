@@ -37,7 +37,7 @@ npm run start
 
 * Website: https://Epstei46.github.io
 * Github: [@Epstei46](https://github.com/Epstei46)
-* LinkedIn: [@TBA](https://linkedin.com/in/TBA)
+<!-- * LinkedIn: [@TBA](https://linkedin.com/in/TBA) -->
 
 ## Show your support
 
