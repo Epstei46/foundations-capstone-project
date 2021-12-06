@@ -35,7 +35,7 @@ npm run start
 
 👤 **Steven Epstein**
 
-* Website: http://stillNeedToCreatePortfolioWebsite.com
+* Website: https://Epstei46.github.io
 * Github: [@Epstei46](https://github.com/Epstei46)
 * LinkedIn: [@TBA](https://linkedin.com/in/TBA)
 
