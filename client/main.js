@@ -1,14 +1,17 @@
 const listContainer = document.querySelector("#list-container")
 const form = document.querySelector("form")
 
-const baseURL = `${window.location.origin}/api/shows`
+// const baseURL = window.location.origin
+const production = "https://simple-watch-list.herokuapp.com";
+const development = "http://localhost:4242";
+const baseURL = window.location.origin.includes('heroku') ? production : development;
 
 const showsCallback = ({ data: shows}) => displayShows(shows)
 const errCallback = err => console.log(err)
 
-const getAllShows = () => axios.get(baseURL).then(showsCallback).catch(errCallback)
-const addShow = body => axios.post(baseURL, body).then(showsCallback).catch(errCallback)
-const deleteShow = id => axios.delete(`${baseURL}/${id}`).then(showsCallback).catch(errCallback)
+const getAllShows = () => axios.get(`${baseURL}/api/shows`).then(showsCallback).catch(errCallback)
+const addShow = body => axios.post(`${baseURL}/api/shows`, body).then(showsCallback).catch(errCallback)
+const deleteShow = id => axios.delete(`${baseURL}/api/shows/${id}`).then(showsCallback).catch(errCallback)
 
 // below function handles when the input form is submitted by adding the text/data that was submitted to db.json, so that even if the page is refreshed (or closed/opened), the data will still be stored.
 function submitHandler(e) {

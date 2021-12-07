@@ -23,7 +23,7 @@ app.listen(port, () => {
     console.log(`Server do be listening on port: ${port}`)
 })
 
-/* Alternate way to get my baseURL instead of using window.location.origin? But how do I make baseURL object available in my client folder? */
+/* Alternate way to get my baseURL instead of using window.location.origin? But how do I make baseURL object available in my client folder? in main.js, 'require' is not defined so I cannot require('dotenv').config() && 'process' is not defined so I cannot use process.env.PATH. */
 // const production = "https://simple-watch-list.herokuapp.com/api/shows";
 // const development = "http://localhost:4242/api/shows";
 // const baseURL = (process.env.PATH ? production : development);
