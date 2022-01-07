@@ -19,11 +19,12 @@
 
 ### ✨ [Demo](https://drive.google.com/file/d/1iO7s3PV4oqWdbjrgjKnLjg7WsC1JBi03/view)
 
-## Install
+## Install & Setup
 
 ```sh
 npm install
 ```
+* In the root folder, create a .env file, type in SERVER_PORT=4242 to match with client/main.js line 6
 
 ## Usage
 
