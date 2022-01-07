@@ -8,8 +8,7 @@ const development = "http://localhost:4242";
 const baseURL = window.location.origin.includes('heroku') ? production : development;
 
 /**
- * This  function is used to take the data coming from the server and focuses in on the list containing objects (from the JSON file), each of which contains key-value pairs for a specific show.
- * pull from the db.json file on the server, which contains a list of objects containing key-value pairs. 
+ * This  function is used to take the data coming from the server and focuses in on the list containing objects (from the JSON file), each of which contains key-value pairs for a specific show, and passes that list as a parameter to the displayShows function.
  * @param {*} shows - object containing key-value pairs.
  */
 const showsCallback = ({ data: shows}) => displayShows(shows)
